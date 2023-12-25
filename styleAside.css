@@ -1,0 +1,132 @@
+aside{
+    position: fixed;
+    top: 30px;
+    left: 0;
+    height: calc(100% - 30px);
+    width: 220px;
+    background: var(--shColor);
+    z-index: 900;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 3px 0px var(--shColor);
+    overflow: hidden;
+  }
+  
+  aside.close{
+    width: 0px;
+  }
+  /*********User***********/
+  aside .profile-user{
+    display: flex;
+    margin: 10px 0px 10px 0px;
+    cursor: pointer;
+    border-bottom: solid 1px rgb(104, 67, 0);
+
+  }
+
+  aside .profile-user .user-photo{
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: -10px;
+    margin-left: 5px;
+  }
+
+  aside .profile-user h4{
+    color: white;
+  }  
+
+  #nameUser{
+    margin: 10px 5px;
+    white-space: nowrap;
+  }
+  
+  /************Nav**************/
+  aside nav{
+    height: 100%;
+    margin-top: 30px;
+  }
+
+  aside nav::-webkit-scrollbar{
+    display: none;
+  }
+  
+  aside nav a{
+    position: relative;
+    list-style: none;
+    transition: all 0s ease;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  
+  aside nav a.active{
+    background-color: rgb(200, 100, 0);
+  }
+
+  aside nav a.active .bx-chevron-right{
+    display: block;
+  }
+  
+  aside nav a span{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    transition: all 0s ease;
+    transition-delay: 0s;
+  }
+  
+  aside.close nav a span{
+    opacity: 0;
+    pointer-events: none;
+    transition-delay: 0s;
+  }
+  
+  aside nav a i{
+    height: 20px;
+    min-width: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0s ease;
+  }
+  
+  aside.close nav a i{
+    opacity: 0;
+    pointer-events: none;
+    transition-delay: 0s;
+    display: none;
+  }
+
+  aside nav a .bx-chevron-right{
+    display: none;
+    left: 180px;
+    position: fixed;
+  }
+  
+  aside nav a:hover{
+    background-color: rgb(200, 100, 0);
+  }
+  
+  aside nav a:hover span{
+      font-weight: 700;
+  }
+
+  aside nav a:hover .bx-chevron-right{
+    display: block;
+  }
+
+  
+  aside nav a:last-child{
+    position: absolute;
+    bottom: 0px;
+    border-top: solid 1px rgb(104, 67, 0);
+    width: 100%;
+  }
+
+  aside nav a:last-child:hover{
+    background-color: rgba(255, 165, 0, 0.3);
+  }  

@@ -1,0 +1,96 @@
+.sidebar-document{
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  right: 0;
+  background: rgb(36, 23, 0);;
+  overflow: auto;
+}
+
+
+.sidebar-document::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar-document .sep{
+    background-color: var(--shColor);
+    width: 100%;
+}
+
+.sidebar-document button{
+  width: 50%;
+  height: 30px;
+  cursor: pointer;
+}
+
+.sidebar-document .sep h1{
+    text-align: center;
+}
+
+.sidebar-document ul{
+  background: rgb(36, 23, 0);;
+  height: 100%;
+  width: 100%;
+  list-style: none;
+}
+
+.sidebar-document ul li{
+  line-height: 60px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.sidebar-document ul ul li{
+    line-height: 40px;
+}
+
+.sidebar-document ul li a{
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding-left: 40px;
+  font-weight: 900;
+  display: block;
+  width: 100%;
+  border-left: 3px solid transparent;
+}
+
+.sidebar-document ul ul li a{
+    font-size: 14px;
+    padding-left: 60px;
+    font-weight: 500;
+}
+  
+
+.main-list-document ul a.active{
+  color: rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0.5);
+  border-left: solid var(--shColor);
+  border-right: solid var(--shColor);
+}
+
+.sidebar-document ul li a:hover{
+  background: rgba(255, 165, 0, 0.4);
+}
+
+.sidebar-document ul ul{
+  position: static;
+  display: none;
+}
+
+.sidebar-document ul ul.show{
+  display: block;
+}
+
+.sidebar-document button{
+  background: var(--shColor);
+}
+
+.sidebar-document ul li a span{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 22px;
+  transition: transform 0.4s;
+}

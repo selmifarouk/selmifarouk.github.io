@@ -1,0 +1,515 @@
+/* Google Fonts Import Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --shColor: rgb(252,132,4);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+	background-color: rgb(182, 182, 180);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--shColor);
+}
+
+
+
+Section{
+  height: calc(100vh - 30px);
+  width: 100%;
+  transition: all 0.5s ease;
+  overflow-y: hidden;
+  background: rgb(35, 43, 43);
+  scroll-snap-align: start;
+}
+
+aside.close ~ .allSections{
+  left: 0px;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.allSections{
+    overflow-y: hidden;
+    position: relative;
+    height: calc(100vh - 30px);
+    left: 220px;
+    width: calc(100% - 220px);
+    transition: all 0.5s ease;
+    top: 30px;
+    background: rgb(35, 43, 43);
+    scroll-snap-type: mandatory;
+    scroll-snap-type: y mandatory;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root{--sh: rgb(248, 132, 28);
+    --black:rgb(50, 40, 0);
+    --white: rgb(255, 249, 235);
+    --b1: rgb(253, 103, 58);
+    --b2: rgb(205, 127, 50);
+    --b3: rgb(255, 69, 0);
+    --b4: rgb(255, 153, 68);
+    --b5: rgb(138, 51, 36);
+    --principal: rgb(248, 132, 28);
+    --principal-90 : rgba(248, 132, 28, 0.5);
+    --principal-10 : rgba(248, 132, 28, 0.3);
+    --secondary: rgb(254, 186, 79);
+    --secondary-90: rgba(254, 186, 79, 0.5);
+    --secondary-10: rgba(254, 186, 79, 0.3);
+    --optional : rgb(255, 216, 150);
+    --optional-90 : rgba(255, 216, 150, 0.5);
+    --optional-10 : rgba(255, 216, 150, 0.3);
+}
+
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Poppins', sans-serif;}
+
+.themes{
+    display: flex;
+    position: relative;
+}
+
+#full-screen{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1111;
+    display: none;
+}
+
+#dashboard{
+    background-color: var(--black);
+}
+
+.show-hide-divs{
+    background-color: var(--principal-10);
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.show-hide-divs:hover{
+    background-color: var(--principal-90);
+}
+
+.uil.hide-divs{
+    font-size: 20px;
+    width: 100%;
+    margin: auto;
+    
+}
+
+.divisions{
+
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    transition: height 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 980px){
+    .divisions{
+        grid-template-columns: calc(100% / 3 - 10px) calc(100% / 3 - 10px) calc(100% / 3 - 10px);
+    }
+}
+
+@media screen and (max-width: 620px){
+    .divisions{
+        grid-template-columns: calc(100% / 2 - 10px) calc(100% / 2 - 10px);
+    }
+}
+
+.division{
+    margin: 0px 0px 0px 0px;
+    background-color: var(--white); 
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+}
+
+#all-divisions-full{
+    margin: 0px;
+    background-color: rgba(248, 132, 28, 0.9); 
+    text-align: center;
+    position: relative;
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    display: grid;
+    grid-template-columns: calc(100% / 6 - 10px) calc(100% / 6 - 10px) calc(100% / 6 - 10px) calc(100% / 6 - 10px) calc(100% / 6 - 10px) calc(100% / 6 - 10px);
+    gap: 12px;
+
+}
+
+.division .projects{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.division span{
+    font-size: 16px;
+    width: 100%;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.division .projects div{
+    border-radius: 5px;
+    background-color: var(--optional);
+    box-shadow: 0px 0px 1px var(--black);
+    line-height : 18px;
+    padding: 5px;
+    text-align: center;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.projectdivFull{
+    border-radius: 5px;
+    background-color: var(--optional);
+    box-shadow: 0px 0px 1px var(--black);
+    line-height : 18px;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.division .projects div span{
+    font-size: 12px;
+    margin: auto;
+    width: 100%;
+    font-weight: 500;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.division .projects div .pri{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+
+.c2{
+    display: grid;
+    width: 100%;
+    grid-template-columns: calc(100% / 3 - 10px / 3) calc(100% / 3 - 10px / 3)  calc(100% / 3 - 10px / 3);
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.month-select {
+    width: calc(100% - 30px);
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.c2 div{
+    border-radius: 10px;
+    background-color: #fbfcfc;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+
+.fav1, .fav2, .fav3, .fav4, .fav5, .fav6, .fav7, .fav8, .fav9, .fav10{
+    display: none;
+}
+
+.fav1, .fav2, .fav3, .fav4{
+    display: block;
+}
+
+.uil.uil-angle-double-left, .uil.uil-angle-double-right{
+    position: absolute;
+    top: 50px;
+    font-size: 20px;
+    height: 20px;
+    line-height : 20px;
+    background-color: var(--black);
+    cursor: pointer;
+    color: var(--white);
+}
+
+.uil.uil-angle-double-left{
+    left: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.uil.uil-angle-double-right{
+    right: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.uil.uil-angle-double-left:hover, .uil.uil-angle-double-right:hover{
+    background-color: var(--principal);
+    color: var(--black);
+}
+
+#left-exp, #right-exp, #left-pr, #right-pr, #left-lab, #right-lab, #left-for, #right-for, #left-ast, #right-ast{
+    display: none;
+}
+
+.uil.th1{
+    position: relative;
+    margin: 2px;
+    font-size: 20px;
+    height: 20px;
+    line-height : 20px;
+    background:none;
+    cursor: pointer;
+    color: rgb(230, 230, 230);
+    top: 0px;
+}
+
+.uil.th1:hover{
+    background-color: rgb(230, 230, 230);
+    color: white;
+}
+
+.uil.th2{
+    position: relative;
+    margin: 2px;
+    font-size: 20px;
+    height: 20px;
+    line-height : 20px;
+    background:none;
+    cursor: pointer;
+    color: rgb(59, 60, 54);
+    top: 0px;
+}
+
+.uil.th2:hover{
+    background-color: rgb(59, 60, 54);
+    color: white;
+}
+
+.uil.th3{
+    position: relative;
+    margin: 2px;
+    font-size: 20px;
+    height: 20px;
+    line-height : 20px;
+    background:none;
+    cursor: pointer;
+    color: rgb(50, 205, 50);
+    top: 0px;
+}
+
+.uil.th3:hover{
+    background-color: rgb(50, 205, 50);
+    color: white;
+}
+
+.uil.th4{
+    position: relative;
+    margin: 2px;
+    font-size: 20px;
+    height: 20px;
+    line-height : 20px;
+    background:none;
+    cursor: pointer;
+    color: rgb(63, 0, 255);
+    top: 0px;
+}
+
+.uil.th4:hover{
+    background-color: rgb(63, 0, 255);
+    color: white;
+}
+
+.uil.th5{
+    position: relative;
+    margin: 2px;
+    font-size: 20px;
+    height: 20px;
+    line-height : 20px;
+    background:none;
+    cursor: pointer;
+    color: rgb(248, 132, 28);
+    top: 0px;
+}
+
+.uil.th5:hover{
+    background-color: rgb(248, 132, 28);
+    color: white;
+}
+
+
+.projects-filter{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: orange;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0 30px;
+  }
+  
+  .projects-filter .filter-links{
+      line-height: 30px;
+    height: 100%;
+    display: flex;
+  }
+  
+  .projects-filter .filter-links li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 14px;
+  }
+  
+  .projects-filter .filter-links li a{
+    height: 100%;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .projects-filter .filter-links li:hover .filter-list{
+    transform: rotate(180deg);
+  }
+  
+  .projects-filter .filter-links li .filter-list{
+    height: 100%;
+    width: 22px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .projects-filter .filter-links li .filter-sub-list{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    line-height: 40px;
+    background: orange;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 4px 4px;
+    display: none;
+    z-index: 2;
+  }
+  
+  .projects-filter .filter-links li:hover .filter-sub-list{
+    display: block;
+  }
+  
+  .projects-filter .filter-links li .filter-sub-list li{
+    padding: 0 22px;
+    border-bottom: 1px solid orange;
+  }
+  
+  .projects-filter .filter-links li .filter-sub-list a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .projects-filter .projects-search-box{
+    position: relative;
+    height: 20px;
+    width: 20px;
+  }
+  
+  .projects-filter .projects-search-box .search-icon{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    line-height: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .projects-filter .projects-search-box .input-box{
+    position: absolute;
+    right: calc(100% - 40px);
+    top: 35px;
+    height: 40px;
+    width: 400px;
+    background: orange;
+    border-radius: 20px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 1s ease;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  .projects-filter.showInput .projects-search-box .input-box{
+    top: 36px;
+    opacity: 1;
+    pointer-events: auto;
+    background: orange;
+  }
+  
+  .projects-filter .projects-search-box .input-box::before{
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 15px;
+    background: orange;
+    right: 25px;
+    top: -6px;
+    transform: rotate(45deg);
+  }
+  
+  .projects-filter .projects-search-box .input-box input{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 15px;
+    height: 30px;
+    width: 360px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 12px;
+    border: none;
+  }
+  
+  .projects-filter .projects-search-box .input-box i{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    line-height: 30px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 10px;
+  }
+  

@@ -1,0 +1,434 @@
+<div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Cod de projet</th>
+          <th>Intitulé du projet</th>
+          <th>Axe de recherche</th>
+          <th>Structure</th>
+          <th>Phase</th>
+          <th>Etat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!---------------------------------------------------------------------------->
+        <tr>
+          <td class="project-code l1 td-hover">Projet1</td>
+          <td class="td-hover">Intitulé de projet 1 </td>
+          <td class="td-hover">Axe de recherche</td>
+          <td class="td-hover">Structure</td>
+          <td class="td-hover">Pahse</td>
+          <td class="td-hover">
+            <div class="state l1"><span>En cours</span></div>
+          </td>
+        </tr>
+        <tr class="deff l1 hide">
+          <td class="def" colspan="6"> 
+            <span class="def-class-table">Identification du projet</span> <br>
+              <span class="table-title">Laboratoire R&D :</span>
+              <span class="table-value"> Nom de laboratoire &emsp;</span>
+              <span class="table-title">Mots Clés :</span>
+              <span class="table-value"> motclé1, motclé2, moclé3, moclé4 &emsp;</span> 
+              <span class="table-title">Porteur de projet :</span>
+              <span class="table-value"> Porteur de projet  &emsp;</span>
+              <span class="table-title">partenaires National/Etranger :</span>
+              <span class="table-value">Partenaires de projet &emsp;</span>
+              <span class="table-title">Mombres de projet R&D :</span>
+              <span class="table-value">Mombre1, Mombre2, Mombre3, Mombre4</span> 
+            <br> <br> <span class="def-class-table">Description du projet</span> <br>
+              <span class="table-title">Résumé :</span>
+              <span class="table-value">Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé </span>
+              <br> <span class="table-title">Objectifs de projet : </span>
+              <span class="table-value">Objectif1 Objectif1 Objectif1 Objectif1 Objectif1 Objectif1 <br>
+                Objectif2 Objectif2 Objectif2 Objectif2 Objectif2 Objectif2 <br>
+                Objectif3 Objectif3 Objectif3 Objectif3 Objectif3 ObjectiF3 
+              </span>
+              <br> <span class="table-title">Etat de l'art et travaux anterieurs :</span>
+              <span class="table-value">Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieursEtat de l'art et travaux anterieursEtat de l'art et travaux anterieursEtat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs</span>
+              <br> <span class="table-title">Approche et méthodologie :</span>
+              <span class="table-value">Approche et méthodologie Approche et méthodologieApproche et méthodologieApproche et méthodologie Approche et méthodologie Approche et méthodologieApproche et méthodologieApproche et méthodologieApproche et méthodologie</span>
+              <br> <span class="table-title">Résultats attendus : </span>
+              <span class="table-value">Résultats attendus Résultats attendusRésultats attendus Résultats attendusRésultats attendusRésultats attendusRésultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus </span>    
+          </td>
+        </tr>
+        <tr class="defs l1 hide">
+          <td class="def" colspan="6">
+            <div class="project-state">
+              <canvas id="project-state"></canvas>  
+            </div>
+          </td>
+        </tr>
+<!------------------------------------------------------------------------------------>
+        <!---------------------------------------------------------------------------->
+        <tr>
+          <td class="project-code l2 td-hover">Projet1</td>
+          <td class="td-hover">Intitulé de projet 1 </td>
+          <td class="td-hover">Axe de recherche</td>
+          <td class="td-hover">Structure</td>
+          <td class="td-hover">Pahse</td>
+          <td class="td-hover">
+            <div class="state"><span>En cours</span></div>
+          </td>
+        </tr>
+        <tr class="deff l2 hide">
+          <td class="def" colspan="6"> 
+            <span class="def-class-table">Identification du projet</span> <br>
+              <span class="table-title">Laboratoire R&D :</span>
+              <span class="table-value"> Nom de laboratoire &emsp;</span>
+              <span class="table-title">Mots Clés :</span>
+              <span class="table-value"> motclé1, motclé2, moclé3, moclé4 &emsp;</span> 
+              <span class="table-title">Porteur de projet :</span>
+              <span class="table-value"> Porteur de projet  &emsp;</span>
+              <span class="table-title">partenaires National/Etranger :</span>
+              <span class="table-value">Partenaires de projet &emsp;</span>
+              <span class="table-title">Mombres de projet R&D :</span>
+              <span class="table-value">Mombre1, Mombre2, Mombre3, Mombre4</span> 
+            <br> <br> <span class="def-class-table">Description du projet</span> <br>
+              <span class="table-title">Résumé :</span>
+              <span class="table-value">Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé </span>
+              <br> <span class="table-title">Objectifs de projet : </span>
+              <span class="table-value">Objectif1 Objectif1 Objectif1 Objectif1 Objectif1 Objectif1 <br>
+                Objectif2 Objectif2 Objectif2 Objectif2 Objectif2 Objectif2 <br>
+                Objectif3 Objectif3 Objectif3 Objectif3 Objectif3 ObjectiF3 
+              </span>
+              <br> <span class="table-title">Etat de l'art et travaux anterieurs :</span>
+              <span class="table-value">Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieursEtat de l'art et travaux anterieursEtat de l'art et travaux anterieursEtat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs</span>
+              <br> <span class="table-title">Approche et méthodologie :</span>
+              <span class="table-value">Approche et méthodologie Approche et méthodologieApproche et méthodologieApproche et méthodologie Approche et méthodologie Approche et méthodologieApproche et méthodologieApproche et méthodologieApproche et méthodologie</span>
+              <br> <span class="table-title">Résultats attendus : </span>
+              <span class="table-value">Résultats attendus Résultats attendusRésultats attendus Résultats attendusRésultats attendusRésultats attendusRésultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus </span>    
+          </td>
+        </tr>
+<!------------------------------------------------------------------------------------>
+        <!---------------------------------------------------------------------------->
+        <tr>
+          <td class="project-code l3 td-hover">Projet1</td>
+          <td class="td-hover">Intitulé de projet 1 </td>
+          <td class="td-hover">Axe de recherche</td>
+          <td class="td-hover">Structure</td>
+          <td class="td-hover">Pahse</td>
+          <td class="td-hover">
+            <div class="state l3"><span>En Attente</span></div>
+          </td>
+        </tr>
+        <tr class="deff l3 hide">
+          <td class="def" colspan="6"> 
+            <span class="def-class-table">Identification du projet</span> <br>
+              <span class="table-title">Laboratoire R&D :</span>
+              <span class="table-value"> Nom de laboratoire &emsp;</span>
+              <span class="table-title">Mots Clés :</span>
+              <span class="table-value"> motclé1, motclé2, moclé3, moclé4 &emsp;</span> 
+              <span class="table-title">Porteur de projet :</span>
+              <span class="table-value"> Porteur de projet  &emsp;</span>
+              <span class="table-title">partenaires National/Etranger :</span>
+              <span class="table-value">Partenaires de projet &emsp;</span>
+              <span class="table-title">Mombres de projet R&D :</span>
+              <span class="table-value">Mombre1, Mombre2, Mombre3, Mombre4</span> 
+            <br> <br> <span class="def-class-table">Description du projet</span> <br>
+              <span class="table-title">Résumé :</span>
+              <span class="table-value">Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé </span>
+              <br> <span class="table-title">Objectifs de projet : </span>
+              <span class="table-value">Objectif1 Objectif1 Objectif1 Objectif1 Objectif1 Objectif1 <br>
+                Objectif2 Objectif2 Objectif2 Objectif2 Objectif2 Objectif2 <br>
+                Objectif3 Objectif3 Objectif3 Objectif3 Objectif3 ObjectiF3 
+              </span>
+              <br> <span class="table-title">Etat de l'art et travaux anterieurs :</span>
+              <span class="table-value">Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieursEtat de l'art et travaux anterieursEtat de l'art et travaux anterieursEtat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs</span>
+              <br> <span class="table-title">Approche et méthodologie :</span>
+              <span class="table-value">Approche et méthodologie Approche et méthodologieApproche et méthodologieApproche et méthodologie Approche et méthodologie Approche et méthodologieApproche et méthodologieApproche et méthodologieApproche et méthodologie</span>
+              <br> <span class="table-title">Résultats attendus : </span>
+              <span class="table-value">Résultats attendus Résultats attendusRésultats attendus Résultats attendusRésultats attendusRésultats attendusRésultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus </span>    
+          </td>
+        </tr>
+<!------------------------------------------------------------------------------------>
+        <!---------------------------------------------------------------------------->
+        <tr>
+          <td class="project-code l4 td-hover">Projet1</td>
+          <td class="td-hover">Intitulé de projet 1 </td>
+          <td class="td-hover">Axe de recherche</td>
+          <td class="td-hover">Structure</td>
+          <td class="td-hover">Pahse</td>
+          <td class="td-hover">
+            <div class="state"><span>En cours</span></div>
+          </td>
+        </tr>
+        <tr class="deff l4 hide">
+          <td class="def" colspan="6"> 
+            <span class="def-class-table">Identification du projet</span> <br>
+              <span class="table-title">Laboratoire R&D :</span>
+              <span class="table-value"> Nom de laboratoire &emsp;</span>
+              <span class="table-title">Mots Clés :</span>
+              <span class="table-value"> motclé1, motclé2, moclé3, moclé4 &emsp;</span> 
+              <span class="table-title">Porteur de projet :</span>
+              <span class="table-value"> Porteur de projet  &emsp;</span>
+              <span class="table-title">partenaires National/Etranger :</span>
+              <span class="table-value">Partenaires de projet &emsp;</span>
+              <span class="table-title">Mombres de projet R&D :</span>
+              <span class="table-value">Mombre1, Mombre2, Mombre3, Mombre4</span> 
+            <br> <br> <span class="def-class-table">Description du projet</span> <br>
+              <span class="table-title">Résumé :</span>
+              <span class="table-value">Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé </span>
+              <br> <span class="table-title">Objectifs de projet : </span>
+              <span class="table-value">Objectif1 Objectif1 Objectif1 Objectif1 Objectif1 Objectif1 <br>
+                Objectif2 Objectif2 Objectif2 Objectif2 Objectif2 Objectif2 <br>
+                Objectif3 Objectif3 Objectif3 Objectif3 Objectif3 ObjectiF3 
+              </span>
+              <br> <span class="table-title">Etat de l'art et travaux anterieurs :</span>
+              <span class="table-value">Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieursEtat de l'art et travaux anterieursEtat de l'art et travaux anterieursEtat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs</span>
+              <br> <span class="table-title">Approche et méthodologie :</span>
+              <span class="table-value">Approche et méthodologie Approche et méthodologieApproche et méthodologieApproche et méthodologie Approche et méthodologie Approche et méthodologieApproche et méthodologieApproche et méthodologieApproche et méthodologie</span>
+              <br> <span class="table-title">Résultats attendus : </span>
+              <span class="table-value">Résultats attendus Résultats attendusRésultats attendus Résultats attendusRésultats attendusRésultats attendusRésultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus </span>    
+          </td>
+        </tr>
+<!------------------------------------------------------------------------------------>
+        <!---------------------------------------------------------------------------->
+        <tr>
+          <td class="project-code l5 td-hover">Projet1</td>
+          <td class="td-hover">Intitulé de projet 1 </td>
+          <td class="td-hover">Axe de recherche</td>
+          <td class="td-hover">Structure</td>
+          <td class="td-hover">Pahse</td>
+          <td class="td-hover">
+            <div class="state"><span>En cours</span></div>
+          </td>
+        </tr>
+        <tr class="deff l5 hide">
+          <td class="def" colspan="6"> 
+            <span class="def-class-table">Identification du projet</span> <br>
+              <span class="table-title">Laboratoire R&D :</span>
+              <span class="table-value"> Nom de laboratoire &emsp;</span>
+              <span class="table-title">Mots Clés :</span>
+              <span class="table-value"> motclé1, motclé2, moclé3, moclé4 &emsp;</span> 
+              <span class="table-title">Porteur de projet :</span>
+              <span class="table-value"> Porteur de projet  &emsp;</span>
+              <span class="table-title">partenaires National/Etranger :</span>
+              <span class="table-value">Partenaires de projet &emsp;</span>
+              <span class="table-title">Mombres de projet R&D :</span>
+              <span class="table-value">Mombre1, Mombre2, Mombre3, Mombre4</span> 
+            <br> <br> <span class="def-class-table">Description du projet</span> <br>
+              <span class="table-title">Résumé :</span>
+              <span class="table-value">Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé </span>
+              <br> <span class="table-title">Objectifs de projet : </span>
+              <span class="table-value">Objectif1 Objectif1 Objectif1 Objectif1 Objectif1 Objectif1 <br>
+                Objectif2 Objectif2 Objectif2 Objectif2 Objectif2 Objectif2 <br>
+                Objectif3 Objectif3 Objectif3 Objectif3 Objectif3 ObjectiF3 
+              </span>
+              <br> <span class="table-title">Etat de l'art et travaux anterieurs :</span>
+              <span class="table-value">Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieursEtat de l'art et travaux anterieursEtat de l'art et travaux anterieursEtat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs</span>
+              <br> <span class="table-title">Approche et méthodologie :</span>
+              <span class="table-value">Approche et méthodologie Approche et méthodologieApproche et méthodologieApproche et méthodologie Approche et méthodologie Approche et méthodologieApproche et méthodologieApproche et méthodologieApproche et méthodologie</span>
+              <br> <span class="table-title">Résultats attendus : </span>
+              <span class="table-value">Résultats attendus Résultats attendusRésultats attendus Résultats attendusRésultats attendusRésultats attendusRésultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus </span>    
+          </td>
+        </tr>
+<!------------------------------------------------------------------------------------>
+        <!---------------------------------------------------------------------------->
+        <tr>
+          <td class="project-code l6 td-hover">Projet1</td>
+          <td class="td-hover">Intitulé de projet 1 </td>
+          <td class="td-hover">Axe de recherche</td>
+          <td class="td-hover">Structure</td>
+          <td class="td-hover">Pahse</td>
+          <td class="td-hover">
+            <div class="state l6"><span>Annulé</span></div>
+          </td>
+        </tr>
+        <tr class="deff l6 hide">
+          <td class="def" colspan="6"> 
+            <span class="def-class-table">Identification du projet</span> <br>
+              <span class="table-title">Laboratoire R&D :</span>
+              <span class="table-value"> Nom de laboratoire &emsp;</span>
+              <span class="table-title">Mots Clés :</span>
+              <span class="table-value"> motclé1, motclé2, moclé3, moclé4 &emsp;</span> 
+              <span class="table-title">Porteur de projet :</span>
+              <span class="table-value"> Porteur de projet  &emsp;</span>
+              <span class="table-title">partenaires National/Etranger :</span>
+              <span class="table-value">Partenaires de projet &emsp;</span>
+              <span class="table-title">Mombres de projet R&D :</span>
+              <span class="table-value">Mombre1, Mombre2, Mombre3, Mombre4</span> 
+            <br> <br> <span class="def-class-table">Description du projet</span> <br>
+              <span class="table-title">Résumé :</span>
+              <span class="table-value">Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé </span>
+              <br> <span class="table-title">Objectifs de projet : </span>
+              <span class="table-value">Objectif1 Objectif1 Objectif1 Objectif1 Objectif1 Objectif1 <br>
+                Objectif2 Objectif2 Objectif2 Objectif2 Objectif2 Objectif2 <br>
+                Objectif3 Objectif3 Objectif3 Objectif3 Objectif3 ObjectiF3 
+              </span>
+              <br> <span class="table-title">Etat de l'art et travaux anterieurs :</span>
+              <span class="table-value">Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieursEtat de l'art et travaux anterieursEtat de l'art et travaux anterieursEtat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs</span>
+              <br> <span class="table-title">Approche et méthodologie :</span>
+              <span class="table-value">Approche et méthodologie Approche et méthodologieApproche et méthodologieApproche et méthodologie Approche et méthodologie Approche et méthodologieApproche et méthodologieApproche et méthodologieApproche et méthodologie</span>
+              <br> <span class="table-title">Résultats attendus : </span>
+              <span class="table-value">Résultats attendus Résultats attendusRésultats attendus Résultats attendusRésultats attendusRésultats attendusRésultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus </span>    
+          </td>
+        </tr>
+<!------------------------------------------------------------------------------------>
+        <!---------------------------------------------------------------------------->
+        <tr>
+          <td class="project-code l7 td-hover">Projet1</td>
+          <td class="td-hover">Intitulé de projet 1 </td>
+          <td class="td-hover">Axe de recherche</td>
+          <td class="td-hover">Structure</td>
+          <td class="td-hover">Pahse</td>
+          <td class="td-hover">
+            <div class="state"><span>En cours</span></div>
+          </td>
+        </tr>
+        <tr class="deff l7 hide">
+          <td class="def" colspan="6"> 
+            <span class="def-class-table">Identification du projet</span> <br>
+              <span class="table-title">Laboratoire R&D :</span>
+              <span class="table-value"> Nom de laboratoire &emsp;</span>
+              <span class="table-title">Mots Clés :</span>
+              <span class="table-value"> motclé1, motclé2, moclé3, moclé4 &emsp;</span> 
+              <span class="table-title">Porteur de projet :</span>
+              <span class="table-value"> Porteur de projet  &emsp;</span>
+              <span class="table-title">partenaires National/Etranger :</span>
+              <span class="table-value">Partenaires de projet &emsp;</span>
+              <span class="table-title">Mombres de projet R&D :</span>
+              <span class="table-value">Mombre1, Mombre2, Mombre3, Mombre4</span> 
+            <br> <br> <span class="def-class-table">Description du projet</span> <br>
+              <span class="table-title">Résumé :</span>
+              <span class="table-value">Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé </span>
+              <br> <span class="table-title">Objectifs de projet : </span>
+              <span class="table-value">Objectif1 Objectif1 Objectif1 Objectif1 Objectif1 Objectif1 <br>
+                Objectif2 Objectif2 Objectif2 Objectif2 Objectif2 Objectif2 <br>
+                Objectif3 Objectif3 Objectif3 Objectif3 Objectif3 ObjectiF3 
+              </span>
+              <br> <span class="table-title">Etat de l'art et travaux anterieurs :</span>
+              <span class="table-value">Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieursEtat de l'art et travaux anterieursEtat de l'art et travaux anterieursEtat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs</span>
+              <br> <span class="table-title">Approche et méthodologie :</span>
+              <span class="table-value">Approche et méthodologie Approche et méthodologieApproche et méthodologieApproche et méthodologie Approche et méthodologie Approche et méthodologieApproche et méthodologieApproche et méthodologieApproche et méthodologie</span>
+              <br> <span class="table-title">Résultats attendus : </span>
+              <span class="table-value">Résultats attendus Résultats attendusRésultats attendus Résultats attendusRésultats attendusRésultats attendusRésultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus </span>    
+          </td>
+        </tr>
+<!------------------------------------------------------------------------------------>
+        <!---------------------------------------------------------------------------->
+        <tr>
+          <td class="project-code l8 td-hover">Projet1</td>
+          <td class="td-hover">Intitulé de projet 1 </td>
+          <td class="td-hover">Axe de recherche</td>
+          <td class="td-hover">Structure</td>
+          <td class="td-hover">Pahse</td>
+          <td class="td-hover">
+            <div class="state"><span>En cours</span></div>
+          </td>
+        </tr>
+        <tr class="deff l8 hide">
+          <td class="def" colspan="6"> 
+            <span class="def-class-table">Identification du projet</span> <br>
+              <span class="table-title">Laboratoire R&D :</span>
+              <span class="table-value"> Nom de laboratoire &emsp;</span>
+              <span class="table-title">Mots Clés :</span>
+              <span class="table-value"> motclé1, motclé2, moclé3, moclé4 &emsp;</span> 
+              <span class="table-title">Porteur de projet :</span>
+              <span class="table-value"> Porteur de projet  &emsp;</span>
+              <span class="table-title">partenaires National/Etranger :</span>
+              <span class="table-value">Partenaires de projet &emsp;</span>
+              <span class="table-title">Mombres de projet R&D :</span>
+              <span class="table-value">Mombre1, Mombre2, Mombre3, Mombre4</span> 
+            <br> <br> <span class="def-class-table">Description du projet</span> <br>
+              <span class="table-title">Résumé :</span>
+              <span class="table-value">Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé </span>
+              <br> <span class="table-title">Objectifs de projet : </span>
+              <span class="table-value">Objectif1 Objectif1 Objectif1 Objectif1 Objectif1 Objectif1 <br>
+                Objectif2 Objectif2 Objectif2 Objectif2 Objectif2 Objectif2 <br>
+                Objectif3 Objectif3 Objectif3 Objectif3 Objectif3 ObjectiF3 
+              </span>
+              <br> <span class="table-title">Etat de l'art et travaux anterieurs :</span>
+              <span class="table-value">Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieursEtat de l'art et travaux anterieursEtat de l'art et travaux anterieursEtat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs</span>
+              <br> <span class="table-title">Approche et méthodologie :</span>
+              <span class="table-value">Approche et méthodologie Approche et méthodologieApproche et méthodologieApproche et méthodologie Approche et méthodologie Approche et méthodologieApproche et méthodologieApproche et méthodologieApproche et méthodologie</span>
+              <br> <span class="table-title">Résultats attendus : </span>
+              <span class="table-value">Résultats attendus Résultats attendusRésultats attendus Résultats attendusRésultats attendusRésultats attendusRésultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus </span>    
+          </td>
+        </tr>
+<!------------------------------------------------------------------------------------>
+        <!---------------------------------------------------------------------------->
+        <tr>
+          <td class="project-code l9 td-hover">Projet1</td>
+          <td class="td-hover">Intitulé de projet 1 </td>
+          <td class="td-hover">Axe de recherche</td>
+          <td class="td-hover">Structure</td>
+          <td class="td-hover">Pahse</td>
+          <td class="td-hover">
+            <div class="state l9"><span>Réalisé</span></div>
+          </td>
+        </tr>
+        <tr class="deff l9 hide">
+          <td class="def" colspan="6"> 
+            <span class="def-class-table">Identification du projet</span> <br>
+              <span class="table-title">Laboratoire R&D :</span>
+              <span class="table-value"> Nom de laboratoire &emsp;</span>
+              <span class="table-title">Mots Clés :</span>
+              <span class="table-value"> motclé1, motclé2, moclé3, moclé4 &emsp;</span> 
+              <span class="table-title">Porteur de projet :</span>
+              <span class="table-value"> Porteur de projet  &emsp;</span>
+              <span class="table-title">partenaires National/Etranger :</span>
+              <span class="table-value">Partenaires de projet &emsp;</span>
+              <span class="table-title">Mombres de projet R&D :</span>
+              <span class="table-value">Mombre1, Mombre2, Mombre3, Mombre4</span> 
+            <br> <br> <span class="def-class-table">Description du projet</span> <br>
+              <span class="table-title">Résumé :</span>
+              <span class="table-value">Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé </span>
+              <br> <span class="table-title">Objectifs de projet : </span>
+              <span class="table-value">Objectif1 Objectif1 Objectif1 Objectif1 Objectif1 Objectif1 <br>
+                Objectif2 Objectif2 Objectif2 Objectif2 Objectif2 Objectif2 <br>
+                Objectif3 Objectif3 Objectif3 Objectif3 Objectif3 ObjectiF3 
+              </span>
+              <br> <span class="table-title">Etat de l'art et travaux anterieurs :</span>
+              <span class="table-value">Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieursEtat de l'art et travaux anterieursEtat de l'art et travaux anterieursEtat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs</span>
+              <br> <span class="table-title">Approche et méthodologie :</span>
+              <span class="table-value">Approche et méthodologie Approche et méthodologieApproche et méthodologieApproche et méthodologie Approche et méthodologie Approche et méthodologieApproche et méthodologieApproche et méthodologieApproche et méthodologie</span>
+              <br> <span class="table-title">Résultats attendus : </span>
+              <span class="table-value">Résultats attendus Résultats attendusRésultats attendus Résultats attendusRésultats attendusRésultats attendusRésultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus </span>    
+          </td>
+        </tr>
+<!------------------------------------------------------------------------------------>
+        <!---------------------------------------------------------------------------->
+        <tr>
+          <td class="project-code l10 td-hover">Projet1</td>
+          <td class="td-hover">Intitulé de projet 1 </td>
+          <td class="td-hover">Axe de recherche</td>
+          <td class="td-hover">Structure</td>
+          <td class="td-hover">Pahse</td>
+          <td class="td-hover">
+            <div class="state"><span>En cours</span></div>
+          </td>
+        </tr>
+        <tr class="deff l10 hide">
+          <td class="def" colspan="6"> 
+            <span class="def-class-table">Identification du projet</span> <br>
+              <span class="table-title">Laboratoire R&D :</span>
+              <span class="table-value"> Nom de laboratoire &emsp;</span>
+              <span class="table-title">Mots Clés :</span>
+              <span class="table-value"> motclé1, motclé2, moclé3, moclé4 &emsp;</span> 
+              <span class="table-title">Porteur de projet :</span>
+              <span class="table-value"> Porteur de projet  &emsp;</span>
+              <span class="table-title">partenaires National/Etranger :</span>
+              <span class="table-value">Partenaires de projet &emsp;</span>
+              <span class="table-title">Mombres de projet R&D :</span>
+              <span class="table-value">Mombre1, Mombre2, Mombre3, Mombre4</span> 
+            <br> <br> <span class="def-class-table">Description du projet</span> <br>
+              <span class="table-title">Résumé :</span>
+              <span class="table-value">Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé Résumé </span>
+              <br> <span class="table-title">Objectifs de projet : </span>
+              <span class="table-value">Objectif1 Objectif1 Objectif1 Objectif1 Objectif1 Objectif1 <br>
+                Objectif2 Objectif2 Objectif2 Objectif2 Objectif2 Objectif2 <br>
+                Objectif3 Objectif3 Objectif3 Objectif3 Objectif3 ObjectiF3 
+              </span>
+              <br> <span class="table-title">Etat de l'art et travaux anterieurs :</span>
+              <span class="table-value">Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieursEtat de l'art et travaux anterieursEtat de l'art et travaux anterieursEtat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs Etat de l'art et travaux anterieurs</span>
+              <br> <span class="table-title">Approche et méthodologie :</span>
+              <span class="table-value">Approche et méthodologie Approche et méthodologieApproche et méthodologieApproche et méthodologie Approche et méthodologie Approche et méthodologieApproche et méthodologieApproche et méthodologieApproche et méthodologie</span>
+              <br> <span class="table-title">Résultats attendus : </span>
+              <span class="table-value">Résultats attendus Résultats attendusRésultats attendus Résultats attendusRésultats attendusRésultats attendusRésultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus Résultats attendus </span>    
+          </td>
+        </tr>
+<!------------------------------------------------------------------------------------>
+
+      </tbody>
+    </table>
+  </div>

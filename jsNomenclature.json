@@ -1,0 +1,377 @@
+{  
+    "abbriviations":{
+        "glossary": [
+            {"name": "CEVT", "def": "Comite d'Expertise et de Validation Technique permanent, institue par la DC R&D selon notamment les domaines de recherche lies a la biotechnologie petroliere et environnement, recherche materiaux, corrosion et inspection, recherche simulation numerique, modelisation et optimisation et recherche EOR/IOR (enhanced oil recovery/improved oil recovery). Preside par le Directeur des projets de recherche du domaine concerne, ii est compose notamment d'experts internes de SONATRACH, d'experts externes de l'universite et/ou de centres de recherche ou de partenaires nationaux ou internationaux, d'un relais operationnel et un representant du client. Les attributions, les missions ainsi que le reglement interieur du CEVT sont fixes par des decisions approuvees par le Directeur Central Recherche & Developpement."},
+            {"name": "Chef de projet", "def": "Personne physique chargee notamment de constituer et d'animer l'equipe de projet R&D. Le chef de projet peut etre un chercheur de la DC R&D, OU issu des structures de SONATRACH, de ses fil iales, d'un centre de recherche, de l'universite ou d'un organisme SCientifique/industriel national OU etranger."},
+            {"name": "Client", "def": "Le client est une entite interne ou externe a SONATRACH recevant un produit ou un service issu de la realisation d'un projet R&D en accord avec les exigences du besoin exprime. Le client est dit « client sponsor » s'il est externe a SONATRACH et en charge du sponsoring du projet R&D."},
+            {"name": "EPT", "def": "Acronyme pour Equivalent Plein Temps"},
+            {"name": "Equipe de projet", "def": "Groupe de travail selectionne par le chef de projet sur la base des competences requises. L'equipe doit inclure dans sa composition notamment un representant du client, un relais et un representant du partenaire (le cas echeant)."},
+            {"name": "Gantt Chart", "def": "Outil de planification indispensable en gestion de projet. II permet de planifier efficacement le projet et de visualiser rapidement l'avancement des différentes tâches à accomplir."},
+            {"name": "Gestion d'un projet R&D", "def": "La gestion de projet R&D est l'ensemble des activités visant à organiser le bon déroulement d'un projet et atteindre ses objectifs. Elle consiste à appliquer les méthodes, techniques et outils de gestion spécifiques aux différentes étapes du projet, de l'évaluation de l'opportunité jusqu'à l'achèvement du projet."},
+            {"name": "Idée R&D", "def": "L'idée peut être soit un nouveau concept, soit l'accomplissement d'un préexistant pour en faire d'une idée d'un projet R&D, un bien réel. "},
+            {"name": "Initiateur de projet", "def": "Personne physique ou morale qui propose une idee exploitable pour initier un projet R&D. II peut etre un chercheur issu de la DC R&D, une structure SONATRACH, une filiale SONATRACH ou toute entite externe, nationale ou internationale. "},
+            {"name": "KPI", "def": "Acronyme pour Key Performance Indication. Ce sont des indicateurs clés de performance, permettant de mesurer la performance des projets. Ils doivent être SMART (Spécifique, Mesurable, Atteignable, Réaliste et Temporellement défini)."},
+            {"name": "KPl-EPT", "def": "Outil d'evaluation et de suivi des performances des membres de l'equipe de projet en tenant compte de leurs implications dans les taches du projet et de leurs travaux hors projet."},
+            {"name": "Partenaire", "def": "Une entité externe a SONATRACH, avec laquelle on s'associe ou on s'allie pour réaliser une action commune dans un projet R&D."},
+            {"name": "Parties prenantes", "def": "C'est un acteur individuel, un groupe de personnes, une structure interne ou une organisation externe a SONATRACH, directement ou indirectement concernée par les retombées et les interactions sur les différentes étapes de réalisation du projet. Les parties prenantes dans la présente procédure regroupent: le porteur du projet, le chef de projet, l'équipe de projet, le client, la DC R&D, le partenaire et le CST."},
+            {"name": "Porteur de projet", "def": "Personne physique chargée de la définition des objectifs du projet R&D. Le porteur du projet peut être un chercheur de la DC R&D, ou issu des structures SONATRACH, de ses filiales, d'un centre de recherche, de l'université ou d'un organisme scientifique/industriel national OU étranger."},
+            {"name": "Projet R&D", "def": "Est considéré comme projet R&D, tout projet qui s'inscrit dans les types d'activités de recherche appliquée et/ou de développement expérimental."},
+            {"name": "Relais", "def": "Représentant désigné par chaque structure de SONATRACH en sa qualité de vis-à-vis avec la DC R&D. II est charge notamment de collecter et diffuser les propositions des idées des projets R&D, émanant de sa structure. II participe également dans le processus de suivi-évaluation des performances des projets R&D."},
+            {"name": "Structure PR", "def": "Représente une des directions de la DC R&D à laquelle le Projet de Recherche sera affecté, selon le domaine de recherche du projet concerne. "}
+        ],
+        "projectStatus":["En attente", "En cours", "Réalisé", "Annulé", "archivé"],
+        "projectPhase":[
+            {
+                "phase": "Avant-projetkkkk", 
+                "subPhase":[
+                    {"name": "Expression d'une idee R&D", "def": "Toute proposition d'idée de recherche et/ou de développement, pour répondre à une problématique ou a un besoin opérationnel, est exprimée par un initiateur d'idée de projet R&D. L'expression et la soumission des idées R&D à la DC R&D doivent se faire dans les formes requises, selon un calendrier établi par la DC R&D, afin de l'intégrer éventuellement dans le budget de l'année suivante. Pour être recevable dans la forme, la proposition d'idée de recherche et/ou de développement doit : \n- Faire l'objet de renseignement d'une fiche d'opportunité de type Pull ou Push, en fonction du cadre de l'opportunité. Les modelés de ces fiches, indiques en annexe III. sont téléchargeables sur le site de la DC R&D ; \n- Etre transmise selon le calendrier fixe par la DC R&D, disponible sur son site. \n\nUne fois renseignée, la fiche en version papier ou électronique, est transmise à la DC R&D centre un accuse de réception. \n\nCes fiches permettent de collecter, d'identifier et de trier en premier lieu les idées de projets R&D repondant aux problematiques soulevees. \n\nLes initiateurs d'idee R&D peuvent solliciter le concours de la DC R&D, à travers la Structure PR, pour la maturation des idees R&D en idees de projets R&D et requerir son assistance pour renseigner les fiches d'opportunites necessaires aux montages des idees de projets R&D avant leurs soumissions au CEVT. \n\nAussi, pour augmenter le taux de recevabilite des idees R&D, la DC R&D organise des brainstormings et des tournees de communication durant l'annee selon un planning predefini. \n\nDes reception des fiches Pull ou Push, la DC R&D precede a: \n- L'etablissement de la notification de protection d'idee et sa transmission a l'initiateur de l'idee R&D ; \n- L'affectation du projet R&D a la Structure PR designee, selon le domaine de competence de celle-ci."},
+                    {"name": "Evaluation et selection preliminaire", "def": "Une evaluation preliminaire de la fiche d'opportunite de l'idee du projet R&D est effectuee par le Comite d'Expertise et de Validation Technique (CEVT) de la DC R&D.\n\nLe CEVT verifie, selon une analyse multicritere, la recevabilite, la faisabilite et la coherence de l'idee de recherche notamment, par rapport aux axes strategiques R&D arretes par la Direction Generale de SONATRACH. Un modele de grille d'evaluation est utilise pour hierarchiser et prioriser les idees porteuses de projets R&D, selon le bareme illustre en annexe IV.\n\nA l'issue des reunions du CEVT, un proces-verbal est etabli, retranscrivant une synthese des travaux, les idees de projet R&D retenues (classees par ordre de priorite), ainsi que les idees non retenues.\n\nUn delai de sept (07) jours ouvres est accorde pour l'accomplissement de !'operation de selection. En cas de besoin d'informations, l'initiateur de l'idee est invite a les completer.\n\nLe CEVT transmet le proces-verbal a la DC R&D qui le soumet au CST pour avis et orientations.\n\nA l'issue de ses travaux, le CST transmet a la DC R&D ses recommandations relatives aux idees de projet R&D.\n\nSur la base des conclusions du CEVT et du CST, des decisions sont etablies par la DC R&D pour formaliser la validation des idees de projet R&D retenues et designer un porteur de projet pour chacune d'elles.\n\nLa nomination du porteur de projet est concretisee :\n- S'il est issu d'une structure de SONATRACH, par une decision etablie par la DC R&D, precisant notamment ses missions.\n- S'il est issu d'une structure externe a SONATRACH, par un contrat de partenariat incluant des dispositions de protection de l'idee etabli par la DC R&D pour definir les termes de cette collaboration. Le contrat est cadre par les dispositions contractuelles et les valeurs de reconnaissance, d'ethique, de deontologie et de propriete intellectuelle.\n\nLe delai de reponse de la DC R&D a l'initiateur, ne doit pas exceder trente (30) jours, a partir de la date de reception de la fiche d'opportunite."},
+                    {"name": "Montage du projet et redaction du Canevas de soumission", "def": "Le montage du projet, par le porteur de projet avec !'assistance de la Structure PR, vise a identifier et rassembler taus les elements constitutifs du projet, a savoir, la definition des objectifs generaux et specifiques, les parties prenantes du projet, la composition de l'equipe projet, !'estimation des moyens humains, materiels et financiers a mobiliser, ainsi que les resultats et les impacts attendus, etc.\n\nUne fiche de projet R&D est renseignee par le porteur du projet. Cette fiche est structuree autour de sept (07) rubriques, comme indique dans l'annexe V.\n\nUn delai de trente (30) jours est accorde au porteur de projet, a partir de la date de sa designation, pour finaliser le montage et le renseignement de la fiche de projet R&D, en vue de la soumettre au CEVT pour examen."}, 
+                    {"name": "Validation du projet R&D ", "def": "Le porteur de projet presente le montage du projet aux membres du CEVT et au client sponsor (le cas echeant) en vue de son etude et analyse.\n\nLe CEVT dispose de quinze (15) jours ouvres, apres la presentation sus citee, pour transmettre un rapport de synthese a la DC R&D. Le CEVT peut solliciter le porteur de projet pour tout eclaircissement necessaire.\n\nLa DC R&D soumet au CST le rapport du CEVT ainsi que la presentation du montage du projet. Le CST peut solliciter le porteur de projet pour tout eclaircissement necessaire.\n\nA l'issue de ses travaux, le CST transmet a la DC R&D ses recommandations relatives au montage du projet R&D.\n\nSur la base des conclusions du CEVT et du CST, la DC R&D notifie au porteur du projet, sa decision motivee et portant l'une des mentions suivantes « accord », « complement d'informations » ou « non faisabilite » du projet.\n\nUne fois le projet R&D valide, la DC R&D formalise la designation du chef de projet et son equipe ainsi que leurs modes de detachement (temps plein ou partiel), par des decisions qui stipulent notamment les missions qui leurs sont devalues"}
+                ]
+            },
+            {
+                "phase": "Planification et lancement", 
+                "subPhase":[
+                    {"name": "Elaboration d'un plan d'action detaille", "def": ""},
+                    {"name": "Examen scientifique et technique", "def": ""},
+                    {"name": "Affectation d'un compte analytique au projet R&D", "def": ""},
+                    {"name": "Etablissement des KPls", "def": ""},
+                    {"name": "Signature des engagements et lancement du projet R&D", "def": ""}
+                ]
+            },
+            {
+                "phase": "Execution et suivi-evaluation",
+                "subPhase":[
+                    {"name": "Etape des Travaux d'etude bibliographique", "def": ""},
+                    {"name": "Travaux de modelisation, de simulation et/ou tests laboratoire", "def": ""},
+                    {"name": "Test pilote ", "def": ""},
+                    {"name": "Processus de suivi-evaluation", "def": ""},
+                    {"name": "Rapport final des travaux", "def": ""}
+                ]
+            },
+            {    
+                "phase": "cloture du projet", 
+                "subPhase":[
+                    {"name": "Cloture du projet", "def": ""},
+                    {"name": "Valorisation scientifique, technique et economique", "def": ""}, 
+                    {"name": "Capitalisation des experiences", "def": ""},
+                    {"name": "Reporting au CST", "def": ""},
+                    {"name": "Valorisation post-cloture du projet", "def": ""}
+                ]
+            }
+            
+        ]
+    },
+
+    "responsabilities": [
+        {
+            "Responsable": "lnitiateur de projet",
+            "parPhase" : [
+                {
+                    "phase": 1, 
+                    "actions":  ["Identification d'un besoin ou d'une problematique", "Renseignement et envoi de la fiche d'opportunité à la DC R&D"],
+                    "documents":  ["", "Fiche d'opportunité"]
+                }
+            ]
+        },
+        {
+            "Responsable": "DC R&D",
+            "parPhase" : [
+                {
+                    "phase": 1, 
+                    "actions":  [
+                        "Affectation du projet à la Structure PR", 
+                        "Réponse aux initiateurs pour la validation ou le rejet de leurs idées", 
+                        "Etablissement de décisions de validation de l'idée et de désignation du porteur de projet", 
+                        "Etude de faisabilité de projet", 
+                        "Désignation du chef et de l'équipe de projet"
+                    ],
+                    "documents":  [
+                        "", 
+                        "Courrier", 
+                        "Décision / Contrat", 
+                        "Décision", 
+                        "Décision"
+                    ]
+                },
+                {
+                    "phase": 2, 
+                    "actions": [
+                        "Transmission du plan de management detaille au CEVT", 
+                        "Notification au chef de projet une décision motivee relative a la suite a donner au projet",
+                        "Ré-estimation financière ou révision technique",
+                        "Rejet de projet",
+                        "Affectation d'un compte analytique au projet approuvé", 
+                        "Signature des engagements et décision de lancement de la réalisation du projet"
+                    ],
+                    "documents":  [
+                        "Plan de management", 
+                        "Décision", 
+                        "Notification",
+                        "Archivage",
+                        "Document comptable", 
+                        "Contrat / Convention / Décision"
+                    ]
+                },
+                {
+                    "phase": 3, 
+                    "actions":  [
+                        "Notification au chef de projet de la décision conjointe (DC R&D-Client)", 
+                        "Cloture du projet",
+                        "Lancement du test pilote sur un site opérationnel"
+                    ],
+                    "documents":  [
+                        "Décision", 
+                        "Archivage",
+                        "Rapport"
+                    ]
+                },
+                {
+                    "phase": 4, 
+                    "actions":  [
+                        "Tri, classement et archivage des informations", 
+                        "Décision de clôture du projet", 
+                        "Valorisation scientifique / technique / économique", 
+                        "Lacement de l'enquête satisfaction-Client", 
+                        "Analyse et consolidation", 
+                        "Reporting au CST",
+                        "Valorisation Post-clôture du projet"
+                    ],
+                    "documents":  [
+                        "BDD", 
+                        "Décision", 
+                        "Publication / Brevet / Concession", 
+                        "Fiche de satisfaction", 
+                        "BDD", 
+                        "Rapport",
+                        ""
+                    ]
+                }                      
+            ]
+        },
+        {
+            "Responsable": "CEVT",
+            "parPhase" : [
+                {
+                    "phase": 1, 
+                    "actions":  [
+                        "Evaluation des fiches. Tri et sélection des idées R&D retenues", 
+                        "Etude et analyse de la fiche de projet Transmission du rapport au DC R&D"
+                    ],
+                    "documents":  [
+                        "Grille d'évaluation / PV de réunion", 
+                        "Rapport"
+                    ]
+                },
+                {
+                    "phase": 2, 
+                    "actions":  ["Examen scientifique et technique Restitution de ses conclusions à la DC R&D"],
+                    "documents":  ["PV de réunion"]
+                },   
+                {
+                    "phase": 3, 
+                    "actions":  [
+                        "Suivi-évaluation de l'état d'avancement du projet R&D", 
+                        "Transmission du rapport à la DC R&D et au chef de projet"
+                    ],
+                    "documents":  [
+                        "Compte rendu", 
+                        "Compte rendu"
+                    ]
+                }                                     
+            ]
+        },     
+        {
+            "Responsable": "CST",
+            "parPhase" : [
+                {
+                    "phase": 1, 
+                    "actions":  ["Evaluation / Analyses et recommandations"],
+                    "documents":  ["Rapport"]
+                }
+            ]
+        },     
+        {
+            "Responsable": "Directeur Central R&D",
+            "parPhase" : [
+                {
+                    "phase": 1, 
+                    "actions":  ["Validation interne"],
+                    "documents":  [""]
+                }
+            ]
+        },
+        {
+            "Responsable": "Porteur projet",
+            "parPhase" : [
+                {
+                    "phase": 1, 
+                    "actions":  ["Montage du projet assiste par la Structure PR. Renseignement de la fiche & présentation du projet au CEVT"],
+                    "documents":  ["Fiche de projet / présentation"]
+                }
+            ]
+        },
+        {
+            "Responsable": "Client",
+            "parPhase" : [
+                {
+                    "phase": 1, 
+                    "actions":  ["Etude et analyse de la fiche de projet Transmission du rapport au DC R&D"],
+                    "documents":  ["Rapport"]
+                },
+                {
+                    "phase": 2, 
+                    "actions":  ["Signature des engagements et décision de lancement de la réalisation du projet"],
+                    "documents":  ["Contrat / Convention / Décision"]
+                },
+                {
+                    "phase": 3, 
+                    "actions":  ["Continuité au cloture de projet"],
+                    "documents":  ["Archivage"]
+                },   
+                {
+                    "phase": 4, 
+                    "actions":  ["Renseignement de la fiche"],
+                    "documents":  ["Fiche de satisfaction"]
+                }                        
+            ]
+        },
+        {
+            "Responsable": "Sponsor",
+            "parPhase" : [
+                {
+                    "phase": 1, 
+                    "actions":  ["Etude et analyse de la fiche de projet Transmission du rapport au DC R&D"],
+                    "documents":  ["Rapport"]
+                },
+                {
+                    "phase": 2, 
+                    "actions":  ["Signature des engagements et décision de lancement de la réalisation du projet"],
+                    "documents":  ["Contrat / Convention / Décision"]
+                }                         
+            ]
+        },
+        {
+            "Responsable": "Partenaire",
+            "parPhase" : [
+                {
+                    "phase": 2, 
+                    "actions":  ["Signature des engagements et décision de lancement de la réalisation du projet"],
+                    "documents":  ["Contrat / Convention / Décision"]
+                }                         
+            ]
+        },           
+        {
+            "Responsable": "Chef de projet",
+            "parPhase" : [
+                {
+                    "phase": 2, 
+                    "actions":  [
+                        "Elaboration du plan de management detaille et sa transmission a la Structure PR", 
+                        "Définition des KPls"
+                    ],
+                    "documents":  [
+                        "Rapport / PV d'évaluation / Grille d'évaluation / Décision", 
+                        "Dashboard"
+                    ]
+                },
+                {
+                    "phase": 3, 
+                    "actions":  [
+                        "Travaux d'étude bibliographique", 
+                        "Travaux de modelisation simulation et tests expérimentaux et/ou laboratoire", 
+                        "Processus de suivi-évaluation", 
+                        "Reporting et presentation reguliere à la Structure PR de l'état d'avancement du projet", 
+                        "Présentation au CEVT des travaux réalisés", 
+                        "Présentation à la Structure PR des travaux realisés"
+                    ],
+                    "documents":  [
+                        "Rapport", 
+                        "Rapport", 
+                        "",
+                        "Rapport", 
+                        "Rapport", 
+                        "Rapport"]
+                },    
+                {
+                    "phase": 4, 
+                    "actions":  [
+                        "Analyse globale du projet", 
+                        "Valorisation scientifique / technique / économique", 
+                        "Renseignement de la fiche de capitalisation de l'experience"
+                    ],
+                    "documents":  [
+                        "Bilan final", 
+                        "Publication / Brevet / Concession", 
+                        "Fiche de capitalisation de l'experience"]
+                }                    
+            ]
+        },
+        {
+            "Responsable": "Structure PR",
+            "parPhase" : [
+                {
+                    "phase": 2, 
+                    "actions":  [
+                        "Validation du plan de management detaille et sa transmission a la DC R&D", 
+                        "Définition des KPls"
+                    ],
+                    "documents":  [
+                        "Plan de management", 
+                        "Dashboard"
+                    ]
+                },
+                {
+                    "phase": 3, 
+                    "actions":  [
+                        "Suivi-évaluation régulier des performances", 
+                        "Reporting à la DC R&D", 
+                        "Mise à jour du Dashboard et des KPl's", 
+                        "Transmission du rapport à la DC R&D et au chef de projet"
+                    ],
+                    "documents":  [
+                        "Dashboard / PV de réunion", 
+                        "Rapport", 
+                        "Rapport",
+                        "Rapport"
+                    ]
+                },
+                {
+                    "phase": 4, 
+                    "actions":  [
+                        "Tri, classement et archivage des informations", 
+                        "Valorisation scientifique / technique / économique", 
+                        "Analyse et consolidation"
+                    ],
+                    "documents":  [
+                        "BDD", 
+                        "Publication / Brevet / Concession", 
+                        "BDD"
+                    ]
+                }    
+            ]
+        }        
+    ],
+    "clients": [
+        {"divsion" : "Division Production", "abbriviation":"PROD"},
+        {"divsion" : "Division Petroleum Engineering and development" , "abbriviation":"PED"},
+        {"divsion" : "Division Forage" , "abbriviation":"FOR"},
+        {"divsion" : "Division Associations" , "abbriviation":"AST"},
+        {"divsion" : "Division Exploration" , "abbriviation":"EXR"},
+        {"divsion" : "Division Laboratories" , "abbriviation":"LAB"}
+    ],
+    "reserchAxe": [
+        ["Géosciences", "énergies nouvelles"], 
+        ["Forage", "production", "réservoir engineering"],
+        ["EOR/IOR"],
+        ["Modélisation", "Simulation", "optimisation"],
+        ["Biotechnologie petrolière", "environnement"],
+        ["Matériaux", "corrosion", "inspection"],
+        ["Raffinage", "pétrochimie", "catalyse", "liquéfaction"],
+        ["Energies renouvelables", "efficacité énergétique"],
+        ["Maitrise technologique", "developpement"],
+        ["Autres"]
+    ],
+    "state": ["En attente", "En cours", "Réalisé", "Annulé", "archive"]
+}

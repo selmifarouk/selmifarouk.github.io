@@ -1,0 +1,112 @@
+.table-container{
+    width: calc(100% - 20px);
+    margin: 10px;
+    height: calc(100% - 20px);
+    overflow: auto;
+}
+
+table {
+    width: 100%;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px 5px 10px 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 50px;
+}
+
+td {
+    background-color: rgb(255, 255, 210);
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+}
+
+th {
+    color: #fff;
+    background-color: rgb(5,5,5);
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+}
+
+.project-code{
+    cursor: pointer;
+}
+.td-hover:hover{
+    color: #fff;
+}
+
+tr:hover td{
+    background-color: var(--shColor);
+}
+
+.table-title{
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.table-value{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.def-class-table{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.state{
+    width: 100%;
+    background-color: green;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.state.l3{
+    background-color: orange;
+}
+
+.state.l6{
+    background-color: red;
+}
+
+.state.l9{
+    background-color: blue;
+}
+
+.state span{
+    color: white;
+
+}
+
+.deff.hide{
+    visibility: hidden;
+    width: 0;
+}
+
+.deff{
+    visibility: hidden;
+    width: 0;
+}
+
+.defs.hide{
+    visibility: hidden;
+    width: 0;
+}
+
+.defS{
+    visibility: hidden;
+    width: 0;
+}
+
+.project-state{
+    background-color: rgb(255, 255, 210);
+    margin: -10px -5px -10px -5px;;
+    border: solid var(--shColor) 1px;
+}

@@ -1,0 +1,200 @@
+{  
+    "sona": [
+        {"name": "SELMI Farouk", "sona": "sona1934", "email": "farouk.selmi@sonatrach.dz", "tel": "2120-5304","password": "m", "grade": "*****", "fonction": "Ingénieur réservoir", "organisme": "PED"},
+        {"name": "DEGHMOUM abdelhakim","sona": "sona0001","email": "abdelhakim.DEGHMOUM@Sonatrach.dz","tel": "2105-5035","password": "m", "grade": "***","fonction": "Directeur recherche","organisme": "DC R&D"},
+        {"name": "Amrou Hoceme Eddine", "sona": "sona0002", "email": "****", "tel": "*****", "password": "m", "grade": "****", "fonction": "****","organisme": "*****"},
+        {"name": "Touil Abdel Hafid","sona": "sona0003", "email": "*****","tel": "*****","password": "m","grade": "****", "fonction": "*****", "organisme": "******"},
+        {"name": "Redouane Kheireddine","sona": "sona0004", "email": "****", "tel": "*****","password": "m", "grade": "*****", "fonction": "*****","organisme": "******"},
+        {"name": "Mouloudj Noureddine","sona": "sona0005","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "Deghmoum Mohamed","sona": "sona0006","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "Abbassen Lyes","sona": "sona0007","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "Hassene Meriem Wafa","sona": "sona0008","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "Ami Amina","sona": "sona0009","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "Khelifa Abdellah","sona": "sona0010","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "Cherifi-Benadji Nedjma","sona": "sona0011","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "KADI Rabah","sona": "sona0012","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "Ouadfeul Sid Ali","sona": "sona0013","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "Benzegouta","sona": "sona0014","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "Laouzai Abdelfettah","sona": "sona0015","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "Aliouane Leila","sona": "sona0016","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "Sifi Amina","sona": "sona0017","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "Hadj Meliani Mohammed","sona": "sona0018","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "Djama Noureddine","sona": "sona0019","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "ARABI Abderraouf/ Benzine","sona": "sona0020","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "Allaoua Malha","sona": "sona0021","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "Kerdjidj MohamedKamel","sona": "sona0022","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "Redouane Kheireddine","sona": "sona0023","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "Benguerba Yacine","sona": "sona0024","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "ZENATI Athmen","sona": "sona0025","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"},
+        {"name": "Alla Hocine","sona": "sona0026","email": "*****","tel": "****","password": "m","grade": "****","fonction": "*****","organisme": "*******"}
+    ],
+    "roles":{
+        "manager":["sona1934"],
+        "admin":["sona1934"],
+        "basic":["sona1934"]
+    },
+    "projects":[
+        {
+            "sona": "sona1934",
+            "projects": [
+                {"project":"EOR1", "reponsability": 6, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },        
+        {
+            "sona": "sona0001",
+            "projects": [
+                {"project":"EOR1", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0002",
+            "projects": [
+                {"project":"SH-VC", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0003",
+            "projects": [
+                {"project":"P05", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0004",
+            "projects": [
+                {"project":"P12", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0005",
+            "projects": [
+                {"project":"PC-SAFT", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0006",
+            "projects": [
+                {"project":"P02", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0007",
+            "projects": [
+                {"project":"PC-∑PV", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0008",
+            "projects": [
+                {"project":"P01", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0009",
+            "projects": [
+                {"project":"MEOR", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0010",
+            "projects": [
+                {"project":"P23", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0011",
+            "projects": [
+                {"project":"P35", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0012",
+            "projects": [
+                {"project":"P04", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0013",
+            "projects": [
+                {"project":"P22", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0014",
+            "projects": [
+                {"project":"P18-37", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0015",
+            "projects": [
+                {"project":"P31", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0016",
+            "projects": [
+                {"project":"P33", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0017",
+            "projects": [
+                {"project":"P15", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0018",
+            "projects": [
+                {"project":"P36", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0019",
+            "projects": [
+                {"project":"P29", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0020",
+            "projects": [
+                {"project":"P11", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0021",
+            "projects": [
+                {"project":"P27", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0022",
+            "projects": [
+                {"project":"P10", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0023",
+            "projects": [
+                {"project":"FDP", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0024",
+            "projects": [
+                {"project":"P43", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0025",
+            "projects": [
+                {"project":"P19", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        },
+        {
+            "sona": "sona0026",
+            "projects": [
+                {"project":"P17", "reponsability": 9, "startDate": "01/01/2017", "endDate": "01/01/2024"}
+            ]
+        }
+    ]
+}

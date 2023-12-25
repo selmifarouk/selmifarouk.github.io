@@ -1,0 +1,69 @@
+/**********************projects number**********************/
+.projects-number{
+    width: calc(100% - 20px);
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.projects-number .n{
+    background-color: rgb(255, 255, 210);
+    width: calc(15% - 5px);
+    box-shadow: 0px 0px 1px black;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.projects-number .n.total{
+    width: calc(40% - 5px);
+}
+
+.projects-number .n.total .chart-container{
+    aspect-ratio: 7/3;
+}
+.chart-container{
+    width: 100%;
+}
+
+.projects-number .n span{
+    font-size: 12px;
+    margin: auto;
+    width: 100%;
+    font-weight: 500;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.projects-number .n.total span{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.all-projects{
+    width: calc(100% - 10px);
+    background-color: rgb(255, 255, 210);
+    box-shadow: 0px 0px 1px black;
+    margin: 5px;
+    border-radius: 10px;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 70vh;
+}
+
+.all-projects-graph{
+    aspect-ratio: 2;
+}
+
+/*
+.all-projects-bars{
+    width: calc(100% - 10px);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 210);
+    box-shadow: 0px 0px 10px black;
+    margin: 5px;
+    height: 100%;
+    height: calc(50vh - 45px);
+}*/

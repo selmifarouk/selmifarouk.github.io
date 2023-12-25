@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Suivi des projets R&D</title>
+    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="styleHeader.css"> 
+    <link rel="stylesheet" href="styleAside.css"> 
+    <link rel="stylesheet" href="styleLogin.css"> 
+    <link rel="stylesheet" href="StyleErrorMsg.css">
+    <link rel="stylesheet" href="styleAbout.css">  
+    <link rel="stylesheet" href="styleCharts.css">  
+    <link rel="stylesheet" href="styleTable.css">  
+    <link rel="stylesheet" href="styleDocsList.css">  
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script> 
+      $(function(){$("#menu-bar").load("indexHead.html");});
+      $(function(){$("#side-bar").load("indexSide.html");});
+      $(function(){$("#error-msg").load("indexErrMsg.html");});
+      $(function(){$(".login-page").load("indexLogin.html");});
+      $(function(){$(".about-coord").load("indexAbout.html");});
+      $(function(){$(".dashboard-section").load("indexDashboard.html");});
+      $(function(){$(".table-projects").load("indexProjectsList.html");});
+      $(function(){$("#kpi-project").load("indexKPI.html");});
+      $(function(){$(".documents").load("indexDocuments.html");});
+    </script> 
+  </head>
+<body>
+  <header id="menu-bar" class = "projects-filter"></header>
+  <aside id="side-bar" class="close" ></aside>
+  <div id="error-msg"></div>
+  <Section class="login-page"></Section>
+  <section class="allSections">
+    <section class="about-coord"></section>
+    <section class="dashboard-section"></section>
+    <section class="table-projects"></section>
+    <section id="kpi-project"></section>
+    <section class="documents"></section>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
+  <script src="scriptDataBase.js"></script>
+</body>
+</html>
