@@ -1,19 +1,23 @@
 aside{
     position: fixed;
-    top: 30px;
+    top: 60px;
     left: 0;
-    height: calc(100% - 30px);
+    height: calc(100% - 60px);
     width: 220px;
     background: var(--shColor);
     z-index: 900;
     transition: all 0.5s ease;
-    box-shadow: 0px 0px 3px 0px var(--shColor);
     overflow: hidden;
   }
   
+  aside nav::-webkit-scrollbar{
+    display: none;
+  }
+
   aside.close{
     width: 0px;
   }
+  
   /*********User***********/
   aside .profile-user{
     display: flex;
@@ -41,13 +45,12 @@ aside{
   
   /************Nav**************/
   aside nav{
-    height: 100%;
+    height: calc(100% - 90px);
     margin-top: 30px;
+    overflow: auto;
   }
 
-  aside nav::-webkit-scrollbar{
-    display: none;
-  }
+
   
   aside nav a{
     position: relative;
@@ -64,23 +67,11 @@ aside{
   aside nav a.active{
     background-color: rgb(200, 100, 0);
   }
-
-  aside nav a.active .bx-chevron-right{
-    display: block;
-  }
   
   aside nav a span{
     font-size: 16px;
     font-weight: 400;
     color: white;
-    transition: all 0s ease;
-    transition-delay: 0s;
-  }
-  
-  aside.close nav a span{
-    opacity: 0;
-    pointer-events: none;
-    transition-delay: 0s;
   }
   
   aside nav a i{
@@ -93,40 +84,31 @@ aside{
     cursor: pointer;
     transition: all 0s ease;
   }
-  
-  aside.close nav a i{
-    opacity: 0;
-    pointer-events: none;
-    transition-delay: 0s;
-    display: none;
-  }
 
-  aside nav a .bx-chevron-right{
-    display: none;
-    left: 180px;
-    position: fixed;
-  }
-  
   aside nav a:hover{
     background-color: rgb(200, 100, 0);
   }
-  
-  aside nav a:hover span{
-      font-weight: 700;
-  }
-
-  aside nav a:hover .bx-chevron-right{
-    display: block;
-  }
-
   
   aside nav a:last-child{
     position: absolute;
     bottom: 0px;
     border-top: solid 1px rgb(104, 67, 0);
     width: 100%;
+    background-color: var(--shColor);
   }
 
   aside nav a:last-child:hover{
     background-color: rgba(255, 165, 0, 0.3);
   }  
+
+  @media only screen and (max-width: 760px){
+    aside{
+      width: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 670px){
+    aside{
+      width: 0px;
+    }
+  }

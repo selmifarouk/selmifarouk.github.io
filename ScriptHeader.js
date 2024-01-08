@@ -1,3 +1,8 @@
+$( "#menu-bar .filter" ).on( "click", function() {
+  $("#menu-bar .filter-links").toggleClass("show")
+  $( "#menu-bar .filter" ).toggleClass("active")
+} );
+
 /********************************lists creation****************************************************/
 import nomenclature from './jsNomenclature.json'  assert { type: 'json' };
 for(let i = 0; i < nomenclature.clients.length; i++)
@@ -11,18 +16,6 @@ for(let i = 0; i < nomenclature.reserchAxe.length; i++)
 
 for(let i = 0; i < nomenclature.state.length; i++)
   $('header .etat .filter-sub-list').append('<li><a href="#" class="filter-e' + (i+1) +'">' + nomenclature.state[i] +'</a></li>');
-
-/******************************Search************************************************/
-let navbar = document.querySelector(".projects-filter");
-let searchBox = document.querySelector(".projects-filter .projects-search-box .bx-search");
-searchBox.addEventListener("click", ()=>{
-  navbar.classList.toggle("showInput");
-  if(navbar.classList.contains("showInput")){
-    searchBox.classList.replace("bx-search" ,"bx-x");
-  }else {
-    searchBox.classList.replace("bx-x" ,"bx-search");
-  }
-});
 
 /*************************Divisions filter********************************/
 let filter_d = [];
@@ -40,7 +33,7 @@ for (let i = 1; i <= nomenclature.clients.length; i++) {
     }else {
       filter_d[i].style.fontStyle = "normal";
       filter_d[i].style.textDecoration = "none"
-      filter_d[i].style.color = "var(--shColor)"
+      filter_d[i].style.color = "black"
     }  
   });
 }
@@ -60,7 +53,7 @@ for (let i = 1; i <= nomenclature.abbriviations.projectPhase.length; i++) {
     }else {
       filter_p[i].style.fontStyle = "normal";
       filter_p[i].style.textDecoration = "none"
-      filter_p[i].style.color = "var(--shColor)"
+      filter_p[i].style.color = "black"
     }  
   });
 }
@@ -80,7 +73,7 @@ for (let i = 1; i <=  nomenclature.reserchAxe.length; i++) {
     }else {
       filter_th[i].style.fontStyle = "normal";
       filter_th[i].style.textDecoration = "none"
-      filter_th[i].style.color = "var(--shColor)"
+      filter_th[i].style.color = "black"
     }  
   });
 }
@@ -100,12 +93,13 @@ for (let i = 1; i <= nomenclature.state.length; i++) {
     }else {
       filter_e[i].style.fontStyle = "normal";
       filter_e[i].style.textDecoration = "none"
-      filter_e[i].style.color = "var(--shColor)"
+      filter_e[i].style.color = "black"
     }  
   });
 }
 
 /************************************Show hide sidebar*****************************************/
-document.querySelector(".projects-filter .logo-ep-head i").addEventListener("click", ()=>{
-  document.querySelector("aside").classList.toggle("close");
+$("#menu-bar .logo-ep-head i").on( "click", function() {
+  $("aside").toggleClass("close");
+  $("#menu-bar .logo-ep-head i").toggleClass("uil-bars uil-multiply");
 });

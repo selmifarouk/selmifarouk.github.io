@@ -1,82 +1,103 @@
 
-.projects-filter{
+#menu-bar{
   position: fixed;
   top: 0;
   left: 0;
-  width: calc(100%);
-  height: 30px;
-  background: whitesmoke;
+  width: 100%;
+  height: 60px;
+  background: white;
   z-index: 100;
   align-items: center;
   transition: all 0.5s ease;
   display: flex;
 }
 
-.projects-filter .logo-ep-head {
+/****************Logo EP*****************/
+#menu-bar .logo-ep-head {
   position:absolute;
   top: 0px;
   left: 0px;
   display: flex;
   align-items: center;
+  height: 100%;
 }
-.projects-filter .logo-ep-head .logo-head{
+#menu-bar .logo-ep-head .logo-head{
   margin-left: 10px;
   margin-right: 5px;
-  height: 30px;
+  height: 40px;
 }
 
-.projects-filter .logo-ep-head i {
+#menu-bar .logo-ep-head i {
   margin-left: 10px;
   cursor: pointer;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   align-items: center;
   border-radius: 50%;
-  line-height: 30px;
+  line-height: 40px;
   font-size: 20px;
-  padding-left: 5px;
-  color: var(--shColor);
+  padding-left: 10px;
+  color: black;
+  display: block;
 }
 
-.projects-filter .logo-ep-head h5{
-  color: var(--shColor);
+#menu-bar .logo-ep-head span{
+  font-weight: 500;
+  font-size: 14px;
 }
 
-.projects-filter .logo-ep-head i:hover {
+#menu-bar .logo-ep-head i:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-/**********User**************/
-.projects-filter .profile-user{
+#menu-bar .logo-ep-head .e-p{
+  display: none;
+}
+
+#menu-bar .logo-ep-head .exploration-production{
+  display: block;
+}
+
+/*******************User*************************/
+#menu-bar .profile-user{
   position:absolute;
   top: 0px;
   right: 5px;
   text-align: center;
   margin: auto;
-  display: flex;
+  display: grid;
   cursor: pointer;
+  height: 100%;
+  width: 80px;
 }
 
-.projects-filter .profile-user .user-photo{
-  width: 30px;
+#menu-bar .profile-user .user-photo{
+  width: 40px;
   border-radius: 50%;
+  margin-left: 20px;
 }
 
-.projects-filter .profile-user h5{
-  color: var(--shColor);
-  margin-top: 5px;
+#menu-bar .profile-user h5{
+  color: black;
+  margin-top: 2px;
 }
 
-/*******Filter*********/  
+/**********************Filter***********************/  
 /*list*/
-.projects-filter .filter-links{
-  line-height: 30px;
+#menu-bar .filter-links, #menu-bar .header-links{
+  position: absolute;
+  line-height: 60px;
   height: 100%;
   display: flex;
-  margin-left: 200px;
+  right: 90px;
 }
 
-.projects-filter .filter-links li{
+#menu-bar .header-links{
+  z-index: 100;
+  background: white;
+}
+
+#menu-bar .filter-links li, #menu-bar .header-links li{
   position: relative;
   display: flex;
   align-items: center;
@@ -85,58 +106,62 @@
   padding: 0 14px;
 }
 
-.projects-filter .filter-links li a{
+#menu-bar .filter-links li a{
   height: 100%;
   text-decoration: none;
   white-space: nowrap;
-  color: var(--shColor);
+  color: black;
   font-size: 15px;
   font-weight: 500;
 }
 
-.projects-filter .filter-links li:hover .filter-list{
+#menu-bar .filter-links li:hover .filter-list{
   transform: rotate(180deg);
 }
 
-.projects-filter .filter-links li .filter-list{
+#menu-bar .filter-links li .filter-list{
   height: 100%;
   width: 22px;
-  line-height: 30px;
+  line-height: 60px;
   text-align: center;
   display: inline-block;
-  color: var(--shColor);
-  transition: all 0.3s ease;
+  color: black;
+  transition: all 1s ease;
 }
 
 /*sublist*/
-.projects-filter .filter-links li .filter-sub-list{
+#menu-bar .filter-links li .filter-sub-list{
   position: absolute;
-  top: 30px;
-  left: 0;
+  top: 60px;
+  left: 0%;
   line-height: 40px;
-  background: whitesmoke;
-  border-radius: 0 0 10px 10px;
+  background: rgb(252, 250, 247);
+  box-shadow: 0px 0px 1px;
+  border-radius: 4px;
   display: none;
   z-index: 2;
 }
 
-.projects-filter .filter-links li:hover .filter-sub-list{
+#menu-bar .filter-links li:hover .filter-sub-list{
   display: block;
 }
 
-.projects-filter .filter-links li .filter-sub-list li{
+#menu-bar .filter-links li .filter-sub-list li{
   padding: 0 22px;
   border: 0px;
 }
 
-.projects-filter .filter-links li .filter-sub-list a{
-  color: var(--shColor);
+#menu-bar .filter-links li .filter-sub-list a{
+  color: black;
   font-size: 15px;
   font-weight: 500;
 }
 
-/***************************************/
-.projects-filter .filter-links li .filter-sub-list .more-sub-menu{
+#menu-bar .filter-links li .filter-sub-list li:hover{
+  background: rgba(255, 239, 210, 0.5);
+}
+
+#menu-bar .filter-links li .filter-sub-list .more-sub-menu{
   position: absolute;
   top: 0;
   left: 100%;
@@ -144,130 +169,160 @@
   z-index: 1;
   display: none;
 }
-.projects-filter .filter-links li .filter-sub-list .more:hover .more-sub-menu{
+#menu-bar .filter-links li .filter-sub-list .more:hover .more-sub-menu{
   display: block;
 }
-/********************************************/
 
-/*search*/
-.projects-filter .projects-search-box{
-  margin-top: 5px;
-  left: 20px;
+.filter-links{
   position: relative;
-  height: 20px;
-  width: 20px;
+  top: -1px;
+  right: -700px;
+  display: none;
+  background: rgb(252, 250, 247);
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px;
+  z-index: 3;
 }
 
-.projects-filter .projects-search-box .search-icon{
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  line-height: 20px;
-  text-align: center;
-  font-size: 18px;
-  color: var(--shColor);
-  font-weight: 600;
+@keyframes slidein{
+  from {top: 0px;} 
+  to{top:62px;} 
+}
+
+.filter-links.show{
+  top: 62px;
+  animation: 1s slidein;
+}
+
+/*******************menu links********************/
+
+.filter{
+  border-color: rgb(185, 185, 185);
+  border-radius: 5px;
   cursor: pointer;
-  transition: all 0.3s ease;
 }
 
-.projects-filter .projects-search-box .input-box{
-  position: absolute;
-  right: calc(100% - 40px);
-  top: 35px;
-  height: 40px;
-  width: 400px;
-  background: var(--shColor);
-  border-radius: 20px;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 1s ease;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-}
-.projects-filter.showInput .projects-search-box .input-box{
-  top: 35px;
-  opacity: 1;
-  pointer-events: auto;
-  background: var(--shColor);
+.filter:hover{
+  background-color: rgba(222, 222, 222, 0.8);
 }
 
-.projects-filter .projects-search-box .input-box::before{
+.filter.active{
+  background-color: rgba(222, 222, 222, 0.5);
+}
+
+.menu-bar-list{
+  border-right-style:double;
+  border-color: rgb(185, 185, 185);
+  border-width: 1px;
+  margin-top: 10px;
+  height: calc(100% - 20px);
+  cursor: pointer;
+}
+
+.menu-bar{
+  display: flex;
+}
+
+.menu-bar-list::after{
   content: '';
   position: absolute;
-  height: 20px;
-  width: 15px;
-  background: var(--shColor);
-  right: 25px;
-  top: -6px;
-  transform: rotate(45deg);
+  left: 5%;
+  bottom: -10px;
+  width: 90%;
+  height: 2px;
+  background: rgb(50, 50, 50);
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .5s;
 }
 
-.projects-filter .projects-search-box .input-box input{
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  border-radius: 15px;
-  height: 30px;
-  width: 360px;
-  outline: none;
-  padding: 0 15px;
-  font-size: 12px;
-  border: none;
+.menu-bar-list:hover::after{
+  transform-origin: left;
+  transform: scaleX(1);
 }
 
-.projects-filter .projects-search-box .input-box i{
-  position: relative;
-  height: 100%;
+.menu-bar-list.active::after{
+  transform: scaleX(1);
+  left: 0%;
   width: 100%;
-  line-height: 30px;
-  font-size: 20px;
-  color: #fff;
-  cursor: pointer;
-  margin: 5px 10px;
 }
 
-/*************************************************/
-/****************************************************/
-.projects-filter .projects-search-box .input-box2{
-  position: absolute;
-  right: calc(100% - 40px);
-  top: 35px;
-  height: 40px;
-  width: 400px;
-  background: var(--shColor);
-  border-radius: 20px;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 1s ease;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-}
-.projects-filter.showInput .projects-search-box .input-box2{
-  top: 80px;
-  opacity: 1;
-  pointer-events: auto;
-  background: var(--shColor);
+.header-links span{
+  font-size: 14px;
 }
 
-.projects-filter .projects-search-box .input-box2 input{
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  border-radius: 15px;
-  height: 30px;
-  width: 360px;
-  outline: none;
-  padding: 0 15px;
+.profile-user span{
   font-size: 12px;
-  border: none;
+  font-weight: 700;
 }
 
-.projects-filter .projects-search-box .input-box2 i{
-  position: relative;
-  height: 100%;
-  width: 100%;
-  line-height: 30px;
-  font-size: 20px;
-  color: #fff;
-  cursor: pointer;
-  margin: 5px 10px;
+/**********************Resize***********************/
+
+@media only screen and (max-width: 1280px){
+  #menu-bar .logo-ep-head .e-p{
+    display: block;
+  }
+  
+  #menu-bar .logo-ep-head .exploration-production{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  .menu-bar-list i{
+    display: none;
+  }
+
+  .filter span{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 890px){
+  .menu-bar-list i{
+    display: block;
+    margin-left: 20px;
+  }  
+
+  .menu-bar-list{
+    width: 82px;
+  }
+
+  .menu-bar-list span{
+    display: none;
+  }  
+/**********User**************/
+#menu-bar .profile-user{
+  right: 5px;
+  width: 30px;
+}
+
+#menu-bar .profile-user .user-photo{
+  width: 30px;
+  border-radius: 50%;
+  margin-left: 0px;
+  margin-top: 15px;
+}
+
+#menu-bar .profile-user span{
+  display: none;
+}
+
+#menu-bar .filter-links, #menu-bar .header-links{
+  right: 50px;
+}
+
+}
+
+@media only screen and (max-width: 670px){
+  #menu-bar .logo-ep-head i{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 620px){
+  #menu-bar .logo-ep-head {
+    display: none;
+  }
 }

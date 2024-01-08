@@ -28,7 +28,7 @@ Section{
   width: 100%;
   transition: all 0.5s ease;
   overflow-y: hidden;
-  background: rgb(35, 43, 43);
+  background: rgb(214, 214, 214);
   scroll-snap-align: start;
 }
 
